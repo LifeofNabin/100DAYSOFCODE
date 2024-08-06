@@ -1,0 +1,65 @@
+Here are concise revision notes to quickly review the key points for "Day 1: Introduction to HTML":
+
+---
+
+### **Day 1: Introduction to HTML - Revision Notes**
+
+#### **1. Structure of an HTML Document**
+
+- **`<!DOCTYPE html>`:** Declares the document type as HTML5.
+- **`<html>` Element:** Root element containing all other HTML elements.
+- **`<head>` Element:**
+  - **`<meta>` Tags:** Provide metadata about the HTML document (e.g., character set).
+  - **`<title>` Tag:** Sets the webpage title shown in the browser tab.
+- **`<body>` Element:** Contains the visible content of the webpage.
+
+#### **2. HTML Tags, Elements, and Attributes**
+
+- **Tags:** Building blocks of HTML, enclosed in angle brackets (e.g., `<p>`, `</p>`).
+- **Elements:** Combination of opening tag, content, and closing tag (e.g., `<h1>Title</h1>`).
+- **Attributes:** Provide additional info about elements, in `name="value"` format (e.g., `<img src="image.jpg" alt="Description">`).
+
+#### **3. Creating a Simple Webpage**
+
+1. **Set Up HTML Structure:**
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <meta charset="UTF-8">
+       <title>My First Webpage</title>
+   </head>
+   <body>
+       <!-- Content goes here -->
+   </body>
+   </html>
+   ```
+
+2. **Add Basic Elements:**
+   - **Headings:** `<h1>`, `<h2>`, etc., for titles and subtitles.
+   - **Paragraphs:** `<p>` for text blocks.
+   - **Images:** `<img src="path" alt="description">`.
+   - **Links:** `<a href="url">Link Text</a>`.
+
+3. **Experiment and Customize:**
+   - **Lists:**
+     - **Unordered List:** `<ul><li>Item</li></ul>`
+     - **Ordered List:** `<ol><li>Item</li></ol>`
+   - **Text Formatting:**
+     - **Bold:** `<strong>text</strong>`
+     - **Italic:** `<em>text</em>`
+
+---
+
+### **Quick Tips**
+
+- **HTML is not case-sensitive:** `<P>` is the same as `<p>`, but conventionally lowercase is used.
+- **Elements can be nested:** Ensure they are properly closed.
+- **Self-closing tags:** Some elements like `<img>` do not require a closing tag.
+
+### **Next Steps**
+
+- **CSS:** Learn how to style HTML elements.
+- **JavaScript:** Add interactivity to your webpages.
+
+These notes should help you quickly recall the fundamentals of HTML as you continue to build your web development skills.
