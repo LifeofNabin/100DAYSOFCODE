@@ -1,10 +1,6 @@
-Here are concise revision notes to quickly review the key points for "Day 1: Introduction to HTML":
+Day 1: Introduction to HTML - 
 
----
-
-### **Day 1: Introduction to HTML - Revision Notes**
-
-#### **1. Structure of an HTML Document**
+1. Structure of an HTML Document
 
 - **`<!DOCTYPE html>`:** Declares the document type as HTML5.
 - **`<html>` Element:** Root element containing all other HTML elements.
