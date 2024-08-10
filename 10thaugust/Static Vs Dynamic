@@ -1,0 +1,15 @@
+Static Vs Dynamic Languages
+Static Languages:
+1.	Type Checking: Performed at compilation time. Variable types are known and enforced before the code runs.
+2.	Variable Declaration: Requires explicit type declaration (e.g., int age = 25;).
+3.	Error Detection: Many errors are caught during compilation, leading to more robust code.
+4.	Performance: Generally faster because the type system is resolved at compile time, allowing for optimizations.
+5.	Code Maintenance: Easier to maintain in large codebases since types are explicit and provide better documentation.
+6.	Examples: C, C++, Java, Rust.
+Dynamic Languages:
+1.	Type Checking: Performed at runtime. Variable types are determined as the code runs.
+2.	Variable Declaration: Types are inferred automatically; no need for explicit type declarations (e.g., age = 25).
+3.	Error Detection: Errors related to types may only appear at runtime, potentially making debugging more challenging.
+4.	Performance: Generally slower due to the overhead of determining types during execution.
+5.	Code Maintenance: Can be more flexible but might be harder to maintain in large codebases due to less explicit type information.
+6.	Examples: Python, JavaScript, Ruby, PHP
