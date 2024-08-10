@@ -1,0 +1,21 @@
+Compile-Time Errors:
+1.	Detection: Occur during the compilation process, before the code is executed.
+2.	Type: Usually related to syntax, type mismatches, missing variables or functions, and other issues that prevent the code from being compiled.
+3.	Impact: Prevents the program from running until the errors are fixed.
+4.	Error Examples:
+o	Syntax errors (e.g., missing semicolons or parentheses).
+o	Type errors (e.g., trying to assign a string to an integer variable).
+o	Missing or undefined variables, classes, or functions.
+5.	Developer Action: Must be fixed before the code can be compiled and executed.
+6.	Examples: In languages like Java or C++, trying to use a variable that hasn’t been declared will result in a compile-time error.
+Runtime Errors:
+1.	Detection: Occur during the execution of the program, after the code has been successfully compiled.
+2.	Type: Typically related to logical errors, invalid operations, or unexpected conditions that arise during execution.
+3.	Impact: Causes the program to crash or behave unexpectedly during execution.
+4.	Error Examples:
+o	Division by zero.
+o	Accessing an array out of bounds.
+o	Null pointer dereferencing.
+o	File not found or network errors.
+5.	Developer Action: Must be fixed by debugging the running program, often requiring specific tests to reproduce the issue.
+6.	Examples: In Python, dividing a number by zero (e.g., 1/0) will result in a runtime error (ZeroDivisionError).
